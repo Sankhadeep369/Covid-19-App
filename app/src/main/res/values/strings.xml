@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Covi-Tracker</string>
+    <string name="handwash">
+        <a href="https://www.who.int/gpsc/5may/How_To_HandWash_Poster.pdf">Hand wash</a>
+    </string>
+    <string name="mask">
+        <a href="https://extranet.who.int/kobe_centre/sites/default/files/DOS-and-DONT-masks-EN.pdf">Face mask
+        </a>
+    </string>
+    <string name="prev">
+        <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">Prevention</a>
+    </string>
+    <string name="sdistance">
+        <a href="https://www.cdc.gov/coronavirus/2019-ncov/downloads/COVID19-symptoms.pdf">Symptoms</a>
+    </string>
+    <string name="vaccine">
+        <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html">VACCINE</a>
+    </string>
+    <string name="iv">
+        <a href="https://www.cowin.gov.in/home">IND VACCINE PROGRAM</a>
+    </string>
+    <string name="uv">
+        <a href="https://www.vaccines.gov">USA VACCINE PROGRAM</a>
+    </string>
+    <string name="ukv">
+        <a href="https://www.gov.uk/government/collections/covid-19-vaccination-programme">UK VACCINE PROGRAM</a>
+    </string>
+    <string name="jv">
+        <a href="https://www.kantei.go.jp/index.html">JAP VACCINE PROGRAM</a>
+    </string>
+    <string name="av">
+        <a href="https://www.health.gov.au/initiatives-and-programs/covid-19-vaccines">AUS VACCINE PROGRAM</a>
+    </string>
+    <string name="gv">
+        <a href="https://www.bundesregierung.de/breg-de">DEU VACCINE PROGRAM</a>
+    </string>
+    <string name="fv">
+        <a href="https://www.sante.fr">FRA VACCINE PROGRAM</a>
+    </string>
+    <string name="infoc">
+        Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases.
+        A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+        Coronaviruses are zoonotic, meaning they are transmitted between animals and people.
+        Detailed investigations found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans.
+    </string>
+
+</resources>

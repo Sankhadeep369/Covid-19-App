@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="146dp"
+    tools:layout_editor_absoluteY="163dp"
+    android:background="@drawable/ims">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Vaccination">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/vaccinexyz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/vaccine101"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/vaccine"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="28sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+
+    <TextView
+        android:id="@+id/Indiav"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/iv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.090" />
+
+    <TextView
+        android:id="@+id/USv"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/uv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.210" />
+
+    <TextView
+        android:id="@+id/UKv"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/ukv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.330" />
+
+    <TextView
+        android:id="@+id/Japanv"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/jv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.450" />
+
+    <TextView
+        android:id="@+id/Australiav"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/av"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.570" />
+
+    <TextView
+        android:id="@+id/FranceV"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/fv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.690" />
+
+    <TextView
+        android:id="@+id/Germanyv"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge2"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/gv"
+        android:textColorLink="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccine101"
+        app:layout_constraintVertical_bias="0.810" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:layout_marginTop="1200dp"
+        android:src="@drawable/stand2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
